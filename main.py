@@ -83,6 +83,3 @@ async def get_mask(unique_id: str):
     else:
         return {"error": "Mask not found"}, 404
 
-if __name__ == "__main__":
-    import uvicorn
-    uvicorn.run(app)
